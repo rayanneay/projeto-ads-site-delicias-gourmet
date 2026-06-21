@@ -67,9 +67,11 @@ h1 {
   color: var(--color-wine);
 }
 h2,
-h3 {
+h3,
+p
+ {
   font-family: var(--font-text);
-  font-weight: 700;
+  font-weight: var(--weight-text);
   color: var(--color-wine);
 }
 /* Reset de lista */
