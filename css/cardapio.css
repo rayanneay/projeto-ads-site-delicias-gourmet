@@ -1,0 +1,207 @@
+.titulodiv {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.titulocardapio {
+    text-align: center;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 65px;
+}
+.detalhe1 {
+    height: 120px;
+}
+.detalhe2 {
+    height: 120px; 
+    transform: rotate(180deg); 
+}
+
+
+.titulosalgado{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: 65px;
+   
+}
+.titulosalgado h1{
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: "Great Vibes", cursive; 
+    margin: 0;
+    position: relative;
+    left: -5px;
+}
+.divsshawarma {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.titulodoces h1 {
+text-decoration: underline;
+    font-size: 50px;
+    font-family: "Great Vibes", cursive; 
+    margin: 0;
+    position: relative;
+    left: -5px;
+ display: flex;  
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: "Great Vibes", cursive;
+    margin-top: 65px;
+   
+}
+.divssalgados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+
+.card {
+    background: white;
+    width: 300px;
+    top: 100px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    padding-bottom: 30px;
+    display: inline-block;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+.button {
+    font-size: 15px;
+    background-color: #6f1416;
+    color: #f8efe3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Mantém o link sem sublinhado */
+    display: inline-block; /* Mantém as margens e altura corretas no botão */
+} 
+.button:hover {
+    color: #7e1012;
+    background-color: #c9a66b;
+}
+
+
+.textoespecial{
+display:flex;
+align-items: center;
+justify-content: center;
+position: relative;
+font-family: "Montserrat", sans-serif; 
+margin-top: 70px;
+}
+.textoespecial2{
+display:flex;
+align-items: center;
+justify-content: center;
+position: relative;
+font-family: "", sans-serif; 
+margin-top: 10px;
+font-size: 22px;
+}
+.divbotespecial{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #6f1416;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    height: 80px;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.buttonespecial{
+display:flex;
+align-items: center;
+justify-content: center;
+position: relative;
+font-family: "Great Vibes", cursive; 
+font-size: 40px;
+}
+.icon-whatsapp2{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.divespecial {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 450px;
+}
+.tituloespecial {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: underline;
+    font-size: 65px;
+    font-family: "Great Vibes", cursive;
+}
+
+
+.carrossel-container {
+  width: 100vw; 
+  overflow: hidden; 
+  padding: 20px 0;
+  margin-top: 150px; 
+  margin-bottom: 50px;
+  top: 350px;
+  position: relative;
+}
+.carrossel-track {
+  display: flex;
+  width: max-content;
+  animation: rolagem 25s linear infinite; 
+}
+.carrossel-track img {
+  width: 500px;
+  height: 370px;
+  object-fit: cover;
+  margin: 0 15px; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+}
+
+
+@keyframes rolagem {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
