@@ -60,10 +60,6 @@ body {
   background-color: var(--color-beige);
   line-height: 1.5;
 }
-* {
-  box-sizing: border-box;
-}
-
 main {
   overflow-x: hidden;
 }
@@ -77,27 +73,6 @@ main {
   gap: 18px;
   text-align: center;
   padding: 72px 24px;
-}
-
-.hero-img {
-  display: none;
-}
-
-.hero h1 {
-  font-size: clamp(3.4rem, 12vw, 7rem);
-  line-height: 0.95;
-}
-
-.hero hr {
-  width: min(180px, 42vw);
-  border: 0;
-  border-top: 2px solid var(--color-gold);
-}
-
-.hero h2 {
-  max-width: 680px;
-  font-size: clamp(1rem, 2.5vw, 1.35rem);
-  font-weight: 500;
 }
 /* Títulos */
 h1 {
